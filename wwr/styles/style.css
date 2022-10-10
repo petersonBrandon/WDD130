@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 #content {
   max-width: 1600px;
@@ -8,6 +10,7 @@ nav a {
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msgh1, #hero-msg h4 {
@@ -29,10 +32,19 @@ main section {
 
 body {
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 header {
   background-color: #6B9AC4;
+  font-family: 'Quicksand', sans-serif;
 }
 
 nav a:hover {
@@ -44,6 +56,10 @@ nav a:hover {
   background-color: #6B9AC4;
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,19 +69,26 @@ nav a:hover {
 
 .msg {
   background-color: #6B9AC4;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: White;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .msg p {
   color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #4059AD;
   color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -82,8 +105,15 @@ footer p {
   font-size: 1.2em;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 .home-title {
   color: #1C2220;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -92,4 +122,25 @@ h4 {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #97D8C4;
+}
+
+main section img {
+  box-sizing: border-box;
 }
