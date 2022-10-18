@@ -15,6 +15,11 @@ nav a {
 
 #hero-msgh1, #hero-msg h4 {
   text-align: center;
+  width: 1600px;
+}
+
+#hero-img {
+  width: 1600px;
 }
 
 .button-box {
