@@ -17,15 +17,15 @@ Fonts are separated by a | */
   --paragraph-font: 'M PLUS Rounded 1c', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #0E67B4;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #0E67B4; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #0E67B4  ;
+  --nav-link-color: white;
+  --nav-background-color: #0E67B4;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #F25F5C;
 }
 
 
@@ -176,3 +176,16 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.image {
+  width: 500px;
+  height: 100%;
+}
+
+.image_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
